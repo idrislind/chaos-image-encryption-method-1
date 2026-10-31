@@ -1,0 +1,61 @@
+{
+  "image": "C:\\Users\\dspit\\Documents\\Pak Idris\\chaos-image-encryption-method1-milestone4\\tes.png",
+  "crypto": "rsa",
+  "diffusion_version": "v3",
+  "baseline_exact": true,
+  "scenario_count": 10,
+  "assumption": "attacks are applied to ciphertext before decryption; block_erasure preserves dimensions",
+  "groups": {
+    "block_erasure": {
+      "cipher_npcr_percent_mean": 10.21687146648206,
+      "cipher_npcr_percent_min": 0.9940002307603554,
+      "cipher_npcr_percent_max": 24.905849775008654,
+      "cipher_uaci_percent_mean": 5.128700988875993,
+      "cipher_uaci_percent_min": 0.49560673005789374,
+      "cipher_uaci_percent_max": 12.513339758425579,
+      "psnr_recovered_db_mean": 19.69506268241557,
+      "psnr_recovered_db_min": 13.464863643163305,
+      "psnr_recovered_db_max": 27.45907139143036,
+      "ssim_recovered_mean": 0.37923795785111514,
+      "ssim_recovered_min": 0.10548531220387038,
+      "ssim_recovered_max": 0.800250099002492,
+      "pixel_error_rate_percent_mean": 10.257023768316603,
+      "pixel_error_rate_percent_min": 1.0073843313718702,
+      "pixel_error_rate_percent_max": 24.9785392869505
+    },
+    "jpeg_recompression": {
+      "cipher_npcr_percent_mean": 99.28985423637552,
+      "cipher_npcr_percent_min": 99.2660666897427,
+      "cipher_npcr_percent_max": 99.33471789546556,
+      "cipher_uaci_percent_mean": 19.12647839336496,
+      "cipher_uaci_percent_min": 18.237797867502834,
+      "cipher_uaci_percent_max": 20.240274695317144,
+      "psnr_recovered_db_mean": 7.459264737446785,
+      "psnr_recovered_db_min": 7.455632730413067,
+      "psnr_recovered_db_max": 7.4623986724775015,
+      "ssim_recovered_mean": 0.00920568056855362,
+      "ssim_recovered_min": 0.009056520811325805,
+      "ssim_recovered_max": 0.009311244271910919,
+      "pixel_error_rate_percent_mean": 99.60470751124956,
+      "pixel_error_rate_percent_min": 99.6036690896504,
+      "pixel_error_rate_percent_max": 99.60551517249337
+    },
+    "salt_pepper_noise": {
+      "cipher_npcr_percent_mean": 0.5333256413214876,
+      "cipher_npcr_percent_min": 0.0999769239644629,
+      "cipher_npcr_percent_max": 1.0,
+      "cipher_uaci_percent_mean": 0.26970010957346285,
+      "cipher_uaci_percent_min": 0.050279966607619166,
+      "cipher_uaci_percent_max": 0.5052294368768622,
+      "psnr_recovered_db_mean": 24.83431716829214,
+      "psnr_recovered_db_min": 20.564300279614635,
+      "psnr_recovered_db_max": 30.395896932767442,
+      "ssim_recovered_mean": 0.6337984336622522,
+      "ssim_recovered_min": 0.4030569988736767,
+      "ssim_recovered_max": 0.8945581629683831,
+      "pixel_error_rate_percent_mean": 2.6207645859774624,
+      "pixel_error_rate_percent_min": 0.4978654667128188,
+      "pixel_error_rate_percent_max": 4.893215645552094
+    }
+  }
+}
