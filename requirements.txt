@@ -1,0 +1,7 @@
+numpy>=1.26
+Pillow>=10.0
+cryptography>=42.0
+pytest>=8.0
+scikit-image>=0.22
+matplotlib>=3.8
+psutil>=5.9
