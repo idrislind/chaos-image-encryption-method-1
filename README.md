@@ -231,13 +231,3 @@ Pengujian ini **tidak mengasumsikan cipher harus kebal terhadap JPEG/cropping/no
 3. PSNR/SSIM/MSE/pixel-error-rate dari recovered image terhadap original.
 
 Untuk diffusion kuat, error propagation yang besar setelah ciphertext rusak dapat merupakan konsekuensi desain, bukan otomatis kegagalan algoritma.
-
-## 8. Next — Milestone 5
-
-Setelah hasil Phase 4 tervalidasi pada beberapa sample image:
-
-- dataset runner UCID / BOSSbase / BOWS-2;
-- aggregate robustness per dataset;
-- final tables/plots;
-- final experiment report;
-- packaging source code + reproducibility instructions.
